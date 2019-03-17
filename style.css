@@ -21,7 +21,7 @@ body{
     background-image: url(bgim.png);
     background-size: cover;
 }
-.dat1{
+..row .col{
     max-height:250px;
     height:170px;
     min-height:100px;
