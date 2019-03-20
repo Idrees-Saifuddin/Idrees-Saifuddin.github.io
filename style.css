@@ -14,13 +14,33 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-    background-image: url(bgim.png);
+    background: rgba(75, 142, 35,1);
+
+   /* background-image: url('bg1.png');
+   background-size: cover 100%;
+   background-repeat: no-repeat;
+   background-position: center; */
+}
+/* .mbg{
+  background-image: url(bg1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 100%;
+} */
+body,html{
+  height: 100%;
+margin: 0;
 }
 .row{
-  background-color: rgba(36, 200, 150, 0.4);
+  background-color: rgba(36, 200, 150, 0.3);
   color: black;
+  background-image: ;
 
+}
+.para{
+  color: black;
 }
 .navbar .navbar-expand-lg .navbar-light .bg-light{
   background-color: rgba(36, 200, 150, 1);
@@ -79,7 +99,7 @@ a:focus {
     left: -250px;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: rgba(55,215,145,1);
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -95,7 +115,7 @@ a:focus {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #7386D5;
+    background:rgba(55,215,145,1);
     position: absolute;
     top: 10px;
     right: 10px;
@@ -107,7 +127,7 @@ a:focus {
 
 #dismiss:hover {
     background: #fff;
-    color: #7386D5;
+    color: rgba(55,215,145,1);
 }
 
 .overlay {
@@ -127,7 +147,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: rgba(55,215,145,1);
 }
 
 #sidebar ul.components {
@@ -147,14 +167,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: white;
+    background:rgba(55,200,130,1);
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: rgba(55,215,145,1);
 }
 
 a[data-toggle="collapse"] {
@@ -172,7 +192,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: (55,200,130,1);
 }
 
 ul.CTAs {
