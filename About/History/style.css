@@ -5,13 +5,16 @@
   width = "95%";
   text-align: left;
 }
-.sl{
+/* .sl{
+  max-height: 600px;
+  min-height: 250px;
+  height: 450px;
+  width: 100%;
+} */
+.imgSlm{
   height: 60vh;
   width: 100%;
-}
-.sl2{
-  height: 50vh;
-  width: 100%;
+
 }
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
