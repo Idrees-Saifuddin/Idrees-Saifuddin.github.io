@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: auto;
-    background-color: rgb(250, 242, 166);
+    background-color: rgb(248, 233, 99);
 }
 /* Container */
 #container{
@@ -93,7 +93,7 @@ body{
     width: 75%;
     height: 100%;
     float: right;
-    background: no-repeat url(headM.png);
+    background: no-repeat url(../../headM.png);
     background-size: cover;
     background-position: center;
 }
@@ -126,6 +126,10 @@ body{
     height: 60vh;
     width: 100%;
 }
+.sl1{
+  height: 25vh;
+  width: 100%;
+}
 
 /* Content */
 .content{
@@ -135,7 +139,7 @@ body{
     display: grid;
     grid-template-columns:auto auto auto;
     grid-column-gap: 3px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(134, 235, 108, 0);
 }
 .content > div {
   
