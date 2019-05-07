@@ -1,10 +1,10 @@
-
 h3{
   color: #096409;
 }
 h5{
   color: #096409;
-}body{
+}
+body{
   margin: 0;
   padding: 0;
   /* background: url(MainBackground.png) no-repeat fixed center; */
@@ -25,7 +25,7 @@ background-size: cover;
   width: 78%;
   margin: 0;
   margin-right: 0px;
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(255, 255, 255);
   float: right;
 }
 
@@ -90,8 +90,7 @@ background-size: cover;
   .fa-caret-down {
     float: right;
     padding-right: 8px;
-  }
-  
+  } 
   @media screen and (max-height: 450px) {
     
   }
@@ -110,9 +109,8 @@ background-size: cover;
     /* float: right; */
     background: no-repeat url(../../headM.png);
     background-size: cover;
-    background-position: center; 
-
-  }
+    background-position: center;
+}
 .lg{
     float: right;
     text-align-last: right;
@@ -168,6 +166,15 @@ background-size: cover;
   background-color: rgba(255, 255, 255, 0);
   border-left: 1px  dashed rgba(248, 252, 21, 0.856);
 }
+table{
+  text-align: center;
+}
+th{
+  background-color: #d2ee6e;
+}
+td{
+  background-color: #d9f085b9
+}
 .c1 , .c3{
 
   grid-column: 1/span 2;
@@ -185,6 +192,23 @@ background-size: cover;
   
   border-bottom: solid 1px rgba(101, 188, 238, 0.521) ;
 }
+.grids{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  grid-column-gap: 5px;
+}
+.grbox{
+  background-color: aqua;
+  padding: 3px;
+  margin: 5px;
+}
+
+.grbox > img{
+  width: 100%;
+  
+}
+
 .grd{
   display: grid;
   grid-column: auto;

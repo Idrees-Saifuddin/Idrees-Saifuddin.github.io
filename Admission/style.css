@@ -1,16 +1,16 @@
-
 h3{
   color: #096409;
 }
 h5{
   color: #096409;
-}body{
+}
+body{
   margin: 0;
   padding: 0;
   /* background: url(MainBackground.png) no-repeat fixed center; */
 }
 body#background {
-background: url('../../MainBackground.png') no-repeat 50% 50% fixed;
+background: url('../MainBackground.png') no-repeat 50% 50% fixed;
 background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -25,7 +25,7 @@ background-size: cover;
   width: 78%;
   margin: 0;
   margin-right: 0px;
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(250, 242, 166);
   float: right;
 }
 
@@ -90,8 +90,7 @@ background-size: cover;
   .fa-caret-down {
     float: right;
     padding-right: 8px;
-  }
-  
+  } 
   @media screen and (max-height: 450px) {
     
   }
@@ -108,11 +107,10 @@ background-size: cover;
     width: 100%;
     height: 100%;
     /* float: right; */
-    background: no-repeat url(../../headM.png);
+    background: no-repeat url(../headM.png);
     background-size: cover;
-    background-position: center; 
-
-  }
+    background-position: center;
+}
 .lg{
     float: right;
     text-align-last: right;
@@ -167,6 +165,15 @@ background-size: cover;
 .c2, .c4{
   background-color: rgba(255, 255, 255, 0);
   border-left: 1px  dashed rgba(248, 252, 21, 0.856);
+}
+table{
+  text-align: center;
+}
+th{
+  background-color: #d2ee6e;
+}
+td{
+  background-color: #d9f085b9
 }
 .c1 , .c3{
 
